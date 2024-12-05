@@ -1,0 +1,133 @@
+2024-06-17 10:42:12,254 INFO com.example.security.SecurityApplication [restartedMain] Starting SecurityApplication using Java 22 on DESKTOP-1C7EODV with PID 10688 (C:\BEZBJEDNOST\bsep-ra-2024-kt2-tim-4\security\security\target\classes started by WIN10 in C:\BEZBJEDNOST\bsep-ra-2024-kt2-tim-4\security\security)
+2024-06-17 10:42:12,329 INFO com.example.security.SecurityApplication [restartedMain] No active profile set, falling back to default profiles: default
+2024-06-17 10:42:12,960 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-17 10:42:12,961 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-17 10:42:17,286 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17 10:42:18,142 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 832 ms. Found 9 JPA repository interfaces.
+2024-06-17 10:42:20,506 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$ffad8f18] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-17 10:42:21,187 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-06-17 10:42:22,284 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@349ccbfa' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-17 10:42:22,306 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-17 10:42:24,160 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2024-06-17 10:42:24,187 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-06-17 10:42:24,188 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-06-17 10:42:24,608 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-06-17 10:42:24,609 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 11644 ms
+2024-06-17 10:42:24,704 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-06-17 10:42:25,219 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-06-17 10:42:25,237 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/security'
+2024-06-17 10:42:26,026 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17 10:42:26,243 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-17 10:42:26,861 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-17 10:42:27,371 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-06-17 10:42:31,081 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-17 10:42:31,107 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17 10:42:36,414 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50abe1c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d399268, org.springframework.security.web.header.HeaderWriterFilter@1887097b, org.springframework.web.filter.CorsFilter@4a627ee5, org.springframework.security.web.authentication.logout.LogoutFilter@2a4e88f, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@36aa4a86, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20954abe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71b2e9f5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fb57ed9, org.springframework.security.web.session.SessionManagementFilter@4f2834b8, org.springframework.security.web.access.ExceptionTranslationFilter@40a8033c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@425421db]
+2024-06-17 10:42:37,196 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-06-17 10:42:37,688 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2024-06-17 10:42:37,722 INFO com.example.security.SecurityApplication [restartedMain] Started SecurityApplication in 27.906 seconds (JVM running for 38.494)
+2024-06-17 10:43:13,440 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-17 10:43:13,441 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2024-06-17 10:43:13,444 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-9] Completed initialization in 2 ms
+2024-06-17 10:43:13,927 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-1] authenticateUser method in UserController started.
+2024-06-17 10:43:13,928 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-17 10:43:14,180 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-17 10:43:20,744 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-3] authenticateUser method in UserController started.
+2024-06-17 10:43:20,745 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService started.
+2024-06-17 10:43:20,813 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService ended.
+2024-06-17 10:43:23,287 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] authenticateUser method in UserController started.
+2024-06-17 10:43:23,288 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-17 10:43:23,298 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-17 10:43:24,980 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-5] authenticateUser method in UserController started.
+2024-06-17 10:43:24,980 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService started.
+2024-06-17 10:43:24,991 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService ended.
+2024-06-17 10:43:28,424 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-10] authenticateUser method in UserController started.
+2024-06-17 10:43:28,424 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService started.
+2024-06-17 10:43:28,435 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService ended.
+2024-06-17 10:43:30,711 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-9] authenticateUser method in UserController started.
+2024-06-17 10:43:30,712 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService started.
+2024-06-17 10:43:30,722 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService ended.
+2024-06-17 10:43:30,768 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-3] getEmployee method in UserController started.
+2024-06-17 10:43:30,769 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService started.
+2024-06-17 10:43:30,778 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService ended.
+2024-06-17 10:43:36,003 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] update method in UserController started.
+2024-06-17 10:43:36,004 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-17 10:43:36,010 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-17 10:43:36,010 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] save method in UserService started.
+2024-06-17 10:43:36,169 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] save method in UserService ended.
+2024-06-17 10:43:52,105 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-5] authenticateUser method in UserController started.
+2024-06-17 10:43:52,105 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService started.
+2024-06-17 10:43:52,117 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService ended.
+2024-06-17 10:43:54,219 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-8] authenticateUser method in UserController started.
+2024-06-17 10:43:54,219 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService started.
+2024-06-17 10:43:54,227 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService ended.
+2024-06-17 10:43:54,271 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-10] getAdmin method in UserController started.
+2024-06-17 10:43:54,272 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService started.
+2024-06-17 10:43:54,282 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService ended.
+2024-06-17 10:44:07,372 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-1] update method in UserController started.
+2024-06-17 10:44:07,373 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-17 10:44:07,381 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-17 10:44:07,381 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] save method in UserService started.
+2024-06-17 10:44:07,407 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] save method in UserService ended.
+2024-06-17 10:44:23,278 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-17 10:44:23,279 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-17 10:44:23,288 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-17 10:44:44,798 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] authenticateUser method in UserController started.
+2024-06-17 10:44:44,800 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-17 10:44:44,805 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-17 10:44:44,843 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-8] getClientProfile method in UserController started.
+2024-06-17 10:44:44,844 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService started.
+2024-06-17 10:44:44,850 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService ended.
+2024-06-17 10:44:44,872 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-10] getClient method in UserController started.
+2024-06-17 10:45:12,433 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-9] authenticateUser method in UserController started.
+2024-06-17 10:45:12,434 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService started.
+2024-06-17 10:45:12,443 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService ended.
+2024-06-17 10:45:46,798 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17 10:45:46,807 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-17 10:45:46,977 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2024-06-17 13:55:02,053 INFO com.example.security.SecurityApplication [restartedMain] Starting SecurityApplication using Java 22 on DESKTOP-1C7EODV with PID 5552 (C:\BEZBJEDNOST\bsep-ra-2024-kt2-tim-4\security\security\target\classes started by WIN10 in C:\BEZBJEDNOST\bsep-ra-2024-kt2-tim-4\security\security)
+2024-06-17 13:55:02,058 INFO com.example.security.SecurityApplication [restartedMain] No active profile set, falling back to default profiles: default
+2024-06-17 13:55:02,228 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-17 13:55:02,228 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-17 13:55:04,616 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-17 13:55:05,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 505 ms. Found 9 JPA repository interfaces.
+2024-06-17 13:55:05,967 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$432d6c81] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-17 13:55:06,056 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-06-17 13:55:06,152 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@31563350' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-17 13:55:06,159 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-17 13:55:07,386 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2024-06-17 13:55:07,410 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-06-17 13:55:07,411 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-06-17 13:55:07,729 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-06-17 13:55:07,730 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5500 ms
+2024-06-17 13:55:07,790 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-06-17 13:55:08,212 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-06-17 13:55:08,230 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/security'
+2024-06-17 13:55:08,796 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-17 13:55:08,938 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-17 13:55:09,429 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-17 13:55:09,739 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-06-17 13:55:11,620 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-17 13:55:11,645 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17 13:55:14,241 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1b1ce1a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@6888a0ac, org.springframework.security.web.header.HeaderWriterFilter@210ac4b2, org.springframework.web.filter.CorsFilter@16f70938, org.springframework.security.web.authentication.logout.LogoutFilter@69d4faa1, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@3f478159, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ae95eb9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26e6aaa6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@742ef4ce, org.springframework.security.web.session.SessionManagementFilter@2a2c2932, org.springframework.security.web.access.ExceptionTranslationFilter@19d47a24, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7be57c77]
+2024-06-17 13:55:14,690 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-06-17 13:55:14,985 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2024-06-17 13:55:15,000 INFO com.example.security.SecurityApplication [restartedMain] Started SecurityApplication in 13.91 seconds (JVM running for 17.703)
+2024-06-17 14:05:40,647 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-8443-exec-10] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-17 14:05:40,648 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-10] Initializing Servlet 'dispatcherServlet'
+2024-06-17 14:05:40,650 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-10] Completed initialization in 1 ms
+2024-06-17 14:05:40,966 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-2] authenticateUser method in UserController started.
+2024-06-17 14:05:40,968 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService started.
+2024-06-17 14:05:41,160 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService ended.
+2024-06-17 14:05:44,583 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-1] authenticateUser method in UserController started.
+2024-06-17 14:05:44,584 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-17 14:05:44,604 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-17 14:05:44,666 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] getAdmin method in UserController started.
+2024-06-17 14:05:44,670 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-17 14:05:44,688 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-17 14:05:48,229 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-17 14:05:48,230 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-17 14:05:48,239 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-17 14:07:03,277 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-17 14:07:03,292 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2024-06-17 14:07:03,316 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

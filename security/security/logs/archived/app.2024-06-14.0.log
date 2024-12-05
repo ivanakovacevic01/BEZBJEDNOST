@@ -1,0 +1,150 @@
+2024-06-14 22:40:43,325 INFO com.example.security.SecurityApplication [restartedMain] Starting SecurityApplication using Java 22 on DESKTOP-1C7EODV with PID 7740 (C:\BEZBJEDNOST\bsep-ra-2024-kt2-tim-4\security\security\target\classes started by WIN10 in C:\BEZBJEDNOST\bsep-ra-2024-kt2-tim-4\security\security)
+2024-06-14 22:40:43,341 INFO com.example.security.SecurityApplication [restartedMain] No active profile set, falling back to default profiles: default
+2024-06-14 22:40:43,578 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-14 22:40:43,579 INFO org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-14 22:40:45,870 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-14 22:40:46,194 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 309 ms. Found 9 JPA repository interfaces.
+2024-06-14 22:40:47,077 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$74a6c30e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-14 22:40:47,150 INFO org.springframework.ws.soap.addressing.server.AnnotationActionEndpointMapping [restartedMain] Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-06-14 22:40:47,230 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@12d29af' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-14 22:40:47,237 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-06-14 22:40:47,790 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8443 (https)
+2024-06-14 22:40:47,812 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2024-06-14 22:40:47,813 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.48]
+2024-06-14 22:40:48,074 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-06-14 22:40:48,074 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4493 ms
+2024-06-14 22:40:48,134 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-06-14 22:40:48,630 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-06-14 22:40:48,641 INFO org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/security'
+2024-06-14 22:40:49,186 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-14 22:40:49,477 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.4.32.Final
+2024-06-14 22:40:50,033 INFO org.hibernate.annotations.common.Version [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-06-14 22:40:50,326 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2024-06-14 22:40:52,147 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-06-14 22:40:52,162 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-14 22:40:54,065 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7cb09f5b, org.springframework.security.web.context.SecurityContextPersistenceFilter@69921c48, org.springframework.security.web.header.HeaderWriterFilter@1880354, org.springframework.web.filter.CorsFilter@5ea36234, org.springframework.security.web.authentication.logout.LogoutFilter@4d39db7, org.springframework.security.oauth2.server.resource.web.BearerTokenAuthenticationFilter@1d31ca48, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23768990, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c8b6be8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71c4dfb3, org.springframework.security.web.session.SessionManagementFilter@560259aa, org.springframework.security.web.access.ExceptionTranslationFilter@79ee10da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@295dae2d]
+2024-06-14 22:40:54,528 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-06-14 22:40:54,889 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8443 (https) with context path ''
+2024-06-14 22:40:54,903 INFO com.example.security.SecurityApplication [restartedMain] Started SecurityApplication in 12.968 seconds (JVM running for 16.447)
+2024-06-14 22:42:29,230 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [https-jsse-nio-8443-exec-9] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-14 22:42:29,230 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-9] Initializing Servlet 'dispatcherServlet'
+2024-06-14 22:42:29,232 INFO org.springframework.web.servlet.DispatcherServlet [https-jsse-nio-8443-exec-9] Completed initialization in 1 ms
+2024-06-14 22:42:29,606 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-1] authenticateUser method in UserController started.
+2024-06-14 22:42:29,608 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-14 22:42:29,792 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-14 22:42:37,161 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-3] authenticateUser method in UserController started.
+2024-06-14 22:42:37,162 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService started.
+2024-06-14 22:42:37,176 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService ended.
+2024-06-14 22:43:36,952 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-5] authenticateUser method in UserController started.
+2024-06-14 22:43:36,964 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService started.
+2024-06-14 22:43:36,991 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService ended.
+2024-06-14 22:43:40,826 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-2] authenticateUser method in UserController started.
+2024-06-14 22:43:40,827 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService started.
+2024-06-14 22:43:40,838 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService ended.
+2024-06-14 22:43:56,212 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-14 22:43:56,214 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 22:43:56,224 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 22:46:54,857 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-3] authenticateUser method in UserController started.
+2024-06-14 22:46:54,858 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService started.
+2024-06-14 22:46:54,869 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService ended.
+2024-06-14 22:47:21,362 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] authenticateUser method in UserController started.
+2024-06-14 22:47:21,363 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-14 22:47:21,373 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-14 22:47:39,972 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-5] authenticateUser method in UserController started.
+2024-06-14 22:47:39,973 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService started.
+2024-06-14 22:47:39,982 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService ended.
+2024-06-14 22:47:43,874 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-2] authenticateUser method in UserController started.
+2024-06-14 22:47:43,876 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService started.
+2024-06-14 22:47:43,885 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService ended.
+2024-06-14 22:48:21,227 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-14 22:48:21,227 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 22:48:21,236 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 22:48:42,838 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-8] authenticateUser method in UserController started.
+2024-06-14 22:48:42,839 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService started.
+2024-06-14 22:48:42,850 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService ended.
+2024-06-14 23:16:15,099 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-3] authenticateUser method in UserController started.
+2024-06-14 23:16:15,101 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService started.
+2024-06-14 23:16:15,130 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService ended.
+2024-06-14 23:16:24,058 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] authenticateUser method in UserController started.
+2024-06-14 23:16:24,059 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-14 23:16:24,065 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-14 23:16:24,122 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 23:16:24,129 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 23:16:24,140 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] getEmployee method in UserController started.
+2024-06-14 23:16:24,141 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 23:16:24,148 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 23:18:34,016 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-3] authenticateUser method in UserController started.
+2024-06-14 23:18:34,017 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService started.
+2024-06-14 23:18:34,024 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-3] findByEmail method in UserService ended.
+2024-06-14 23:18:35,775 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] authenticateUser method in UserController started.
+2024-06-14 23:18:35,775 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-14 23:18:35,783 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-14 23:18:35,818 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-14 23:18:35,826 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-14 23:18:35,827 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-1] getEmployee method in UserController started.
+2024-06-14 23:18:35,827 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-14 23:18:35,834 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-14 23:19:17,661 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-14 23:19:17,662 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 23:19:17,669 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 23:19:31,890 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-2] authenticateUser method in UserController started.
+2024-06-14 23:19:31,890 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService started.
+2024-06-14 23:19:31,898 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService ended.
+2024-06-14 23:19:33,104 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-7] authenticateUser method in UserController started.
+2024-06-14 23:19:33,104 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService started.
+2024-06-14 23:19:33,110 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService ended.
+2024-06-14 23:19:33,138 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService started.
+2024-06-14 23:19:33,145 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService ended.
+2024-06-14 23:19:33,146 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-8] getEmployee method in UserController started.
+2024-06-14 23:19:33,146 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService started.
+2024-06-14 23:19:33,151 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService ended.
+2024-06-14 23:19:38,367 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-10] authenticateUser method in UserController started.
+2024-06-14 23:19:38,368 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService started.
+2024-06-14 23:19:38,375 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService ended.
+2024-06-14 23:19:40,931 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-9] authenticateUser method in UserController started.
+2024-06-14 23:19:40,932 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService started.
+2024-06-14 23:19:40,937 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService ended.
+2024-06-14 23:20:31,442 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-5] authenticateUser method in UserController started.
+2024-06-14 23:20:31,443 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService started.
+2024-06-14 23:20:31,449 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService ended.
+2024-06-14 23:36:38,310 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-7] authenticateUser method in UserController started.
+2024-06-14 23:36:38,317 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService started.
+2024-06-14 23:36:38,333 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService ended.
+2024-06-14 23:54:27,965 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-9] authenticateUser method in UserController started.
+2024-06-14 23:54:27,969 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService started.
+2024-06-14 23:54:28,015 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-9] findByEmail method in UserService ended.
+2024-06-14 23:54:32,542 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-5] authenticateUser method in UserController started.
+2024-06-14 23:54:32,543 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService started.
+2024-06-14 23:54:32,552 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-5] findByEmail method in UserService ended.
+2024-06-14 23:54:32,695 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-14 23:54:32,705 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-14 23:54:32,708 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-4] getEmployee method in UserController started.
+2024-06-14 23:54:32,709 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService started.
+2024-06-14 23:54:32,716 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-4] findByEmail method in UserService ended.
+2024-06-14 23:54:35,177 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-10] authenticateUser method in UserController started.
+2024-06-14 23:54:35,178 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService started.
+2024-06-14 23:54:35,187 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-10] findByEmail method in UserService ended.
+2024-06-14 23:55:05,427 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-1] authenticateUser method in UserController started.
+2024-06-14 23:55:05,428 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService started.
+2024-06-14 23:55:05,435 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-1] findByEmail method in UserService ended.
+2024-06-14 23:55:08,017 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-2] authenticateUser method in UserController started.
+2024-06-14 23:55:08,020 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService started.
+2024-06-14 23:55:08,028 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService ended.
+2024-06-14 23:55:15,605 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-14 23:55:15,606 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 23:55:15,611 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 23:55:17,847 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-7] authenticateUser method in UserController started.
+2024-06-14 23:55:17,847 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService started.
+2024-06-14 23:55:17,855 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService ended.
+2024-06-14 23:55:21,665 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-8] authenticateUser method in UserController started.
+2024-06-14 23:55:21,666 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService started.
+2024-06-14 23:55:21,673 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-8] findByEmail method in UserService ended.
+2024-06-14 23:58:28,069 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-2] authenticateUser method in UserController started.
+2024-06-14 23:58:28,070 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService started.
+2024-06-14 23:58:28,078 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-2] findByEmail method in UserService ended.
+2024-06-14 23:58:58,469 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-6] authenticateUser method in UserController started.
+2024-06-14 23:58:58,469 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService started.
+2024-06-14 23:58:58,475 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-6] findByEmail method in UserService ended.
+2024-06-14 23:59:09,509 INFO com.example.security.controller.UserController [https-jsse-nio-8443-exec-7] authenticateUser method in UserController started.
+2024-06-14 23:59:09,509 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService started.
+2024-06-14 23:59:09,515 INFO com.example.security.service.UserService [https-jsse-nio-8443-exec-7] findByEmail method in UserService ended.
